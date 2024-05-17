@@ -1,11 +1,17 @@
 import './App.css';
 // import header component
 import { Header } from './components/Header';
+import { Skills } from './components/Skills';
+import { Contact } from './components/Contact';
 
 function App() {
   return (
-    <Header /> // call header component
+    <>
+      <Header />
+      <Skills />
+      <Contact />
+    </>
   );
-}
+};
 
 export default App;
