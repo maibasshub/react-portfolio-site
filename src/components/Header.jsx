@@ -5,7 +5,7 @@ import { FaTwitter, FaGithub } from 'react-icons/fa';
 export const Header = ()=> {
   return (
     <header className="main-cover" style={{backgroundImage: `url(${CoverImage})`}}>
-      <div clasName="overlay"></div>
+      <div className="overlay"></div>
       <div className="container">
         <div className="display-table">
           <div className="display-table-contents">
